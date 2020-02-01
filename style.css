@@ -1,0 +1,34 @@
+
+html {
+    background: url(images/starfield.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div {
+    position: absolute;
+    top: 5px;
+    left: 1px;
+}
+
+#button {
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 150px;
+    /* width of button */
+    height: 50px;
+    /* height of button */
+}
+
+#animation {
+    top: 150px;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
